@@ -595,7 +595,7 @@ star:after {
   width: 100%;
   text-align: center;
   line-height: 1;
-  z-index: 1000;
+  z-index: 110000;
   display: flex;
 }
 
@@ -609,16 +609,16 @@ star:after {
 }
 
 #fixed-tabs .map {
-  background-color: #3CBEDC;
+  background-color: #578478;
 }
 
 #fixed-tabs .call {
-  background-color: #343945;
+  background-color: #A39181;
 }
 
 #fixed-tabs .ra {
   flex: 0 1 50%;
-  background-color: #3CBEDC;
+  background-color: #578478;
 }
 
 #fixed-tabs .ra, #fixed-tabs .call, #fixed-tabs .map {
@@ -652,12 +652,12 @@ body {
   background: #F8F8F8;
   text-align: center;
   color: #000;
-  font: 400 18px/26px "Roboto", sans-serif;
+  font: 400 18px/26px "Montserrat", sans-serif;
 }
 
 p {
   color: #000;
-  font: 400 18px/1.6 "Roboto", sans-serif;
+  font: 400 18px/1.6 "Montserrat", sans-serif;
   letter-spacing: 0.36px;
 }
 
@@ -665,22 +665,22 @@ a {
   display: inline-block;
   text-decoration: none;
   cursor: pointer;
-  color: #343945;
+  color: #A39181;
 }
 
 a:hover {
-  color: #343945;
+  color: #A39181;
 }
 
 h1, h2 h3, h4, h5, h6 {
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-align: center;
 }
 
 h1 {
   margin: 0;
-  color: #343945;
-  font: 400 50px/1.3 "Prata", serif;
+  color: #A39181;
+  font: 400 50px/1.3 "Montserrat", sans-serif;
   letter-spacing: 1.1px;
 }
 
@@ -690,26 +690,26 @@ h1 small {
 }
 
 h2 {
-  font: normal 142px/1.1 "Prata", serif;
-  color: #343945;
+  font: normal 142px/1.1 "Montserrat", sans-serif;
+  color: #A39181;
   margin: 10px 0;
 }
 h2.big {
-  font-family: "Prata", serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: normal;
   font-size: 137px;
   letter-spacing: -0.04em;
   color: #000;
 }
 h2 span {
-  font-family: "Prata", serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: normal;
   font-size: 88px !important;
 }
 
 h3, .h3 {
-  font: 700 30px/1 "Prata", serif;
-  color: #343945;
+  font: 700 30px/1 "Montserrat", sans-serif;
+  color: #A39181;
   margin: 15px auto 10px;
   letter-spacing: 0.75px;
 }
@@ -753,7 +753,7 @@ main ul li:before {
   transform: translate(-50%, -50%);
   width: 100%;
   color: #000;
-  font: 700 15px/1 "Roboto", sans-serif, sans-serif;
+  font: 700 15px/1 "Montserrat", sans-serif, sans-serif;
   text-transform: uppercase;
   letter-spacing: 1.5px;
   text-align: center;
@@ -778,14 +778,15 @@ main ul li:before {
 .play i:before {
   margin: auto;
   padding-left: 5px;
+  color: #578478;
 }
 
 .play:hover {
-  color: #343945;
+  color: #A39181;
 }
 
 .play:hover i {
-  background-color: #343945;
+  background-color: #A39181;
   color: #fff;
 }
 
@@ -793,7 +794,7 @@ main ul li:before {
 [data-embed] .close, [data-vimeo] .close {
   cursor: pointer;
   line-height: 1;
-  background-color: #3CBEDC;
+  background-color: #578478;
   color: #fff;
   padding: 8px;
   text-transform: uppercase;
@@ -812,7 +813,7 @@ main ul li:before {
   margin-bottom: 5px;
 }
 [data-embed] .close:focus, [data-vimeo] .close:focus {
-  background-color: #23a4c2;
+  background-color: #43655c;
 }
 
 [data-embed] .close:hover, [data-vimeo] .close:hover {
@@ -831,9 +832,9 @@ main ul li:before {
   padding: 15px 20px;
   text-align: center;
   color: #fff;
-  background-color: #3CBEDC;
+  background-color: #578478;
   min-width: 250px;
-  font: 700 13px/1.1 "Roboto", sans-serif;
+  font: 700 13px/1.1 "Montserrat", sans-serif;
   border-radius: 6px;
   letter-spacing: 1.8px;
 }
@@ -850,9 +851,9 @@ main ul li:before {
 
 header {
   position: relative;
-  padding: 15px;
+  padding: 5px 10px;
   z-index: 100;
-  background-color: #fff;
+  background-color: #EEF1F0;
 }
 header #nav a i {
   font-size: 20px;
@@ -862,7 +863,7 @@ header #nav a i:before {
   padding: 7px;
   width: 35px;
   height: 35px;
-  background-color: #3CBEDC;
+  background-color: #578478;
   border-radius: 50%;
   display: flex !important;
   justify-content: center;
@@ -873,13 +874,13 @@ header #nav a.btn {
   border-radius: 40px;
   color: #fff;
   font-size: 24px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 header #nav a.btn:hover {
-  background-color: #343945;
+  background-color: #A39181;
 }
 header #nav a.btn i {
-  color: #3CBEDC;
+  color: #578478;
 }
 header #nav a.btn i:before {
   background-color: #fff;
@@ -895,7 +896,7 @@ header #nav .phone {
   font-size: 32px;
 }
 header #nav .phone:hover {
-  color: #3CBEDC;
+  color: #578478;
 }
 header #nav .phy {
   font-size: 22px;
@@ -905,7 +906,7 @@ header #nav .phy {
   letter-spacing: 0.47px;
 }
 header #nav .phy:hover {
-  color: #3CBEDC;
+  color: #578478;
 }
 header #nav > * {
   display: flex;
@@ -914,13 +915,13 @@ header #nav > * {
 }
 
 .phone {
-  color: #3CBEDC;
-  font: 700 30px/30px "Roboto", sans-serif;
+  color: #578478;
+  font: 700 30px/30px "Montserrat", sans-serif;
   display: block;
   letter-spacing: 0.5px;
 }
 .phone:hover {
-  color: #343945;
+  color: #A39181;
 }
 .phone span {
   display: block;
@@ -1014,16 +1015,17 @@ p.big {
   position: relative;
 }
 .bg-1:after {
-  content: url(assets/images/lp-real-smiles-bkg-flower.png);
+  content: url(assets/images/lp-real-smiles-banner-bkg.png);
+  z-index: -1;
   width: 700px;
-  height: 450px;
+  height: 670px;
   position: absolute;
   bottom: 0;
   left: 0;
 }
 
 .bg-2 {
-  background-color: #343945;
+  background-color: #A39181;
   padding: 10px;
   z-index: 1100;
   position: relative;
@@ -1036,7 +1038,7 @@ p.big {
 .smile .top {
   font-size: 26px;
   font-weight: 700;
-  max-width: 1180px;
+  max-width: 1375px;
   margin: 60px auto 10px;
 }
 .smile .top h2 {
@@ -1047,6 +1049,10 @@ p.big {
 }
 .smile .top hr {
   max-width: 15%;
+  height: 3px;
+  box-shadow: none;
+  background-color: #A39181;
+  margin-top: 50px;
 }
 .smile .top #banner-flex {
   margin: 70px auto 100px;
@@ -1060,6 +1066,7 @@ p.big {
 }
 .smile .top #banner-flex article p {
   text-align: left;
+  line-height: 35px;
 }
 .smile .top #banner-flex figure {
   position: relative;
@@ -1069,7 +1076,7 @@ p.big {
 }
 .smile .top #banner-flex figure figcaption {
   width: 100%;
-  background: transparent;
+  background-color: #fff;
   font-weight: 400;
   font-size: 20px;
 }
@@ -1148,11 +1155,12 @@ p.big {
 }
 
 .smile h1 {
-  color: #343945;
-  font: 500 93px/1 "Prata", serif;
+  color: #578478;
+  font: 200 90px/1 "Montserrat", sans-serif;
+  text-transform: uppercase;
 }
 .smile h1 span {
-  font-family: "Prata", serif;
+  font-family: "Montserrat", sans-serif;
 }
 .smile article p.big {
   font-weight: normal;
@@ -1176,17 +1184,17 @@ p.big {
   flex: 0 1 815px;
 }
 .smile .content .call article p {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 50px;
   padding: 10px;
   color: #000;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-align: left;
   letter-spacing: -0.02em;
   line-height: 60px;
 }
 .smile .content .call article a {
-  color: #3CBEDC;
+  color: #578478;
 }
 .smile .content .call article a:hover {
   color: #000;
@@ -1196,13 +1204,15 @@ p.big {
   position: relative;
 }
 .smile .content .call figure figcaption {
-  background-color: #343945;
+  background-color: rgba(255, 255, 255, 0.9);
   bottom: 0;
   position: absolute;
   text-transform: uppercase;
   padding: 2px 15px;
   font-weight: 600;
   font-size: 14px;
+  letter-spacing: 1.5px;
+  width: 100%;
 }
 .smile .form {
   background-color: #f0f0f0;
@@ -1243,7 +1253,7 @@ p.big {
   vertical-align: middle;
 }
 .smile .form input[type=checkbox] + label {
-  font-size: 15px;
+  font-size: 20px;
   color: #000;
   margin-left: 5px;
 }
@@ -1292,7 +1302,7 @@ p.big {
   flex-direction: column;
 }
 .smile #clockdiv > div span {
-  color: #3CBEDC;
+  color: #578478;
   font-size: 40px;
   font-weight: 700;
   font-style: normal;
@@ -1312,8 +1322,8 @@ p.big {
   color: #fff !important;
   margin-bottom: 50px;
   font-size: 29px;
-  font-weight: 400;
-  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
 }
 
 footer :is(input, textarea) {
@@ -1325,8 +1335,8 @@ footer :is(input, textarea) {
 }
 .factors h2 {
   color: white;
-  font: 500 55px/1 "Roboto", sans-serif;
-  background: #343945;
+  font: 500 55px/1 "Montserrat", sans-serif;
+  background: #A39181;
   padding: 25px 15px;
   margin: 0;
 }
@@ -1340,7 +1350,7 @@ footer :is(input, textarea) {
   background: rgba(15, 15, 76, 0.05);
 }
 .factors [class*=row] p {
-  font: 500 22px/1 "Roboto", sans-serif;
+  font: 500 22px/1 "Montserrat", sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
@@ -1348,7 +1358,7 @@ footer :is(input, textarea) {
   margin: auto;
 }
 .factors .icon rect, .factors .icon path {
-  fill: #343945;
+  fill: #A39181;
 }
 
 .fo-form {
@@ -1466,7 +1476,7 @@ footer {
   background: #fff;
 }
 footer h2 {
-  font: 400 45px/1.2 "Roboto", sans-serif !important;
+  font: 500 45px/1.2 "Montserrat", sans-serif !important;
   color: #000;
   text-align: center;
   margin: 0 auto 20px;
@@ -1474,7 +1484,7 @@ footer h2 {
 }
 footer h2:after {
   content: "";
-  background-color: #3E3F7F;
+  background-color: #A39181;
   position: absolute;
   height: 5px;
   width: 85px;
@@ -1483,14 +1493,14 @@ footer h2:after {
   transform: translate(50%);
 }
 footer article .phy {
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: normal;
   font-size: 18px;
   color: #000;
-  margin: 20px auto;
+  margin: 10px auto;
 }
 footer article .phy:hover {
-  color: #3CBEDC;
+  color: #578478;
 }
 footer article .phone {
   font-size: 41px;
@@ -1528,7 +1538,7 @@ footer .split article:last-of-type h2 {
 footer .split article p {
   margin-top: 20px;
   text-align: center;
-  font: 400 32px/1.2 "Roboto", sans-serif;
+  font: 400 32px/1.2 "Montserrat", sans-serif;
   letter-spacing: 0.03em;
   margin-bottom: 10px;
   color: #000;
@@ -1537,7 +1547,7 @@ footer .split article p span:first-child {
   font-size: 20px;
 }
 footer .split article p .phone-footer {
-  color: #3CBEDC;
+  color: #578478;
 }
 footer .split article p small {
   font-size: 19px;
@@ -1578,13 +1588,13 @@ figcaption {
   padding: 5px;
 }
 figcaption span {
-  font-family: "Prata", serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-size: 16px;
   color: #fff;
 }
 figcaption p {
-  font: 400 18px/1 "Roboto", sans-serif;
+  font: 400 18px/1 "Montserrat", sans-serif;
   text-transform: uppercase;
   color: #fff;
 }
@@ -1593,7 +1603,7 @@ figcaption strong {
   font-weight: 400;
   display: block;
   font-size: 22px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   margin-bottom: 0;
 }
@@ -1605,10 +1615,10 @@ figcaption .address {
   font-size: 14px;
 }
 figcaption .address:hover {
-  color: #3CBEDC;
+  color: #578478;
 }
 figcaption:hover p {
-  color: #3CBEDC;
+  color: #578478;
 }
 
 .stamp {
@@ -1624,24 +1634,23 @@ figcaption:hover p {
   padding: 30px 10px 50px;
   background-color: #fff;
   margin: auto;
-  text-transform: uppercase;
-  font: 400 12px/1.4 "Roboto", sans-serif;
+  font: 400 16px/1.4 "Montserrat", sans-serif;
   color: #1a1a1a;
 }
 .copy a, .copy p {
-  font: 400 12px/1.4 "Roboto", sans-serif;
+  font: 400 16px/1.4 "Montserrat", sans-serif;
   color: #fff;
   letter-spacing: 0.6px;
 }
 .copy a {
-  color: #3CBEDC;
+  color: #578478;
 }
 .copy p {
   margin: 20px auto;
   max-width: 1090px;
 }
 .copy a:hover {
-  color: #343945;
+  color: #A39181;
   text-decoration: underline;
 }
 .copy span {
@@ -1656,8 +1665,8 @@ figcaption:hover p {
   font-size: 16px;
   font-weight: 700;
   padding: 15px 10px;
-  border: 1px solid #3CBEDC;
-  background-color: #3CBEDC;
+  border: 1px solid #578478;
+  background-color: #578478;
   color: #fff;
   text-transform: uppercase;
 }
@@ -1684,7 +1693,7 @@ figcaption:hover p {
   color: #000;
 }
 .simple input:focus, .simple textarea:focus, .simple .btn:focus, .simple select:focus {
-  box-shadow: inset 0 -3px 0 #3CBEDC;
+  box-shadow: inset 0 -3px 0 #578478;
 }
 
 hr {
@@ -1743,7 +1752,7 @@ hr {
   .smile .top #banner-flex {
     margin-top: 30px;
   }
-  .smile .top #banner-flex article {
+  .smile .top #banner-flex article, .smile .top #banner-flex figure {
     flex: auto;
   }
   .smile .top #banner-flex article p {

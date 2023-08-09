@@ -30,16 +30,16 @@
 }
 
 
-$primary: #3CBEDC;
-$secondary:#343945;
-$font: 'Roboto', sans-serif;
-$font2: 'Prata', serif;
+$primary: #578478;
+$secondary:#A39181;
+$font: 'Montserrat', sans-serif;
+$font2: 'Montserrat', sans-serif;
 $text: #000;
 $icon-bkg: rgba(15, 15, 76,.05);
 
 
 /* ------------- Fixed Tabs -------------- */
-#fixed-tabs{position:fixed;bottom:0;right:0;width:100%;text-align:center;line-height:1;z-index:1000;display:flex}
+#fixed-tabs{position:fixed;bottom:0;right:0;width:100%;text-align:center;line-height:1;z-index:110000;display:flex}
 #fixed-tabs a{font-size:13px;color:$text;font-weight:700;text-transform:uppercase;padding:14px 0;flex: 0 1 25%}
 #fixed-tabs .map {background-color:$primary;}
 #fixed-tabs .call {background-color:$secondary;}
@@ -78,7 +78,7 @@ main ul{list-style:none;padding:0;margin:10px auto;text-align:left;display:table
 /* ------------- Play Button -------------- */
 .play {cursor: pointer; border: none; background-color: transparent; position: absolute; top: 50%; left: 50%;  transform: translate(-50%, -50%); width: 100%; color: $text; font: 700 15px/1 $font, sans-serif; text-transform: uppercase; letter-spacing: 1.5px; text-align: center; transition: .3s all; }
 .play i {width: 50px; height: 50px;border-radius: 50%;  background-color: #fff; display: block; color: $text; display: inline-flex;  align-items: center; justify-content: center; font-size: 25px; margin: 10px; transition: .3s all; }
-.play i:before {margin: auto; padding-left: 5px;}
+.play i:before {margin: auto; padding-left: 5px;color: $primary;}
 .play:hover {color: $secondary;}
 .play:hover i {background-color: $secondary; color: #fff;}
 
@@ -96,7 +96,7 @@ main ul{list-style:none;padding:0;margin:10px auto;text-align:left;display:table
     &:hover{background-color:$text;color:#fff}
 }
 
-header{position:relative;padding:15px;z-index:100;background-color: #fff;
+header{position:relative;padding:5px 10px;z-index:100;background-color: #EEF1F0;
     #nav {
         a {
             i {font-size: 20px; color: #fff;
@@ -148,24 +148,25 @@ p {
 .reorder-top {display: block;}
 .smile .top .big {color: $text; font-size: 26px; font-weight: normal; letter-spacing: normal;}
 .bg-1{background-color: #fff; padding: 10px;position: relative;
-    &:after {content: url(assets/images/lp-real-smiles-bkg-flower.png);width: 700px;height:450px;position: absolute; bottom: 0;left: 0;}
+    &:after {content: url(assets/images/lp-real-smiles-banner-bkg.png);z-index: -1;width: 700px;height:670px;position: absolute; bottom: 0;left: 0;}
 }
 .bg-2{background-color: $secondary; padding: 10px;z-index: 1100;
     position: relative;}
 .smile #main-nav, .smile .mean-bar{display: none !important;}
-.smile .top{font-size: 26px; font-weight: 700; max-width: 1180px; margin: 60px auto 10px;
+.smile .top{font-size: 26px; font-weight: 700; max-width: 1375px; margin: 60px auto 10px;
     h2 {color: $text; font-size: 36px; letter-spacing: -.02em; font-weight: 500;}
-    hr {max-width: 15%;}
+    hr {max-width: 15%;height: 3px;
+        box-shadow: none;background-color: $secondary;margin-top: 50px;}
     #banner-flex {margin: 70px auto 100px;flex-wrap:wrap;
         article {flex: 0 1 50%;display: flex;
             flex-wrap: wrap;
             align-content: center;
-            p {text-align:left;}
+            p {text-align:left;line-height: 35px;}
         }
         figure {position:relative;flex: 0 1 50%;
             z-index: 20000;
             align-self: center;
-            figcaption {width: 100%;background: transparent;font-weight: 400;font-size: 20px;}
+            figcaption {width: 100%;background-color: #fff;font-weight: 400;font-size: 20px;}
         }
     }
 }
@@ -188,20 +189,20 @@ p {
 }
 .use-it-top-image p {color: $text;}
 .smile {
-    h1 {color: $secondary; font: 500 93px/1 $font2;
+    h1 {color: $primary; font: 200 90px/1 $font2;text-transform:uppercase;
         span {font-family: $font2;}
     }
     article p { &.big{font-weight: normal; font-size: 26px; text-align: center; color: #1a1a1a;}}
     .content{ max-width: 1300px; margin: 60px auto; background-color: #f0f0f0; 
         .call{padding: 40px 10px; display: flex; align-items: center; justify-content: space-around; background-color: #fff;
             article {flex: 0 1 815px;
-                p{font-weight: 500; font-size: 50px; padding: 10px; color: $text; font-family: $font; text-align: left; letter-spacing: -.02em;line-height: 60px;}
+                p{font-weight: 400; font-size: 50px; padding: 10px; color: $text; font-family: $font; text-align: left; letter-spacing: -.02em;line-height: 60px;}
                 a{color: $primary;
                     &:hover {color: $text;}
                 }
             }
             figure{flex: 0 0 400px; position: relative;
-                figcaption { background-color: $secondary; bottom: 0; position: absolute; text-transform: uppercase; padding: 2px 15px; font-weight: 600; font-size: 14px;}
+                figcaption { background-color: rgba(255,255,255,0.9); bottom: 0; position: absolute; text-transform: uppercase; padding: 2px 15px; font-weight: 600; font-size: 14px;letter-spacing: 1.5px;width: 100%;}
             }
         }
     }
@@ -214,7 +215,7 @@ p {
         input, textarea{text-align:left;background-color: #fff; height: 55px; color: $text; font-size: 20px; padding: 10px;}
         .input{display: block; text-align: left;margin-top: 20px;}
         input[type=checkbox]{height: 30px; width: 30px; display: inline-block; vertical-align: middle;}
-        input[type=checkbox] + label{font-size: 15px; color: $text; margin-left: 5px;}
+        input[type=checkbox] + label{font-size: 20px; color: $text; margin-left: 5px;}
         .big-label{display: block; font-size: 20px; font-weight: 700; color: $text;text-align:left;}
         .simple .btn {width: 100%;}
         ::-webkit-input-placeholder { color: $text; }
@@ -230,7 +231,7 @@ p {
             .smalltext { margin-top: 30px; color: $text; font-size: 20px; font-weight: 700; font-style: normal; letter-spacing: normal; line-height: 1; }
         }
     }
-    .use-it-very-bottom-text .big {color: #fff !important; margin-bottom: 50px;font-size: 29px;font-weight: 400;font-family: $font;}
+    .use-it-very-bottom-text .big {color: #fff !important; margin-bottom: 50px;font-size: 29px;font-weight: 700;font-family: $font;}
 }
 
 footer :is(input, textarea) {background-color: #f0f0f0 !important;}
@@ -280,11 +281,11 @@ footer :is(input, textarea) {background-color: #f0f0f0 !important;}
 
 /* ------------- Footer -------------- */
 footer{overflow:hidden; padding:40px 0 0;background-color:$text; background: #fff;
-    h2{font:400 45px/1.2 $font!important; color: $text;text-align:center;margin:0 auto 20px; position: relative;
-        &:after {content: ''; background-color: #3E3F7F; position: absolute; height: 5px; width: 85px; bottom: -20px; right: 50%; transform: translate(50%);}
+    h2{font:500 45px/1.2 $font!important; color: $text;text-align:center;margin:0 auto 20px; position: relative;
+        &:after {content: ''; background-color: $secondary; position: absolute; height: 5px; width: 85px; bottom: -20px; right: 50%; transform: translate(50%);}
     }
     article {
-    .phy {font-family: $font; font-weight: normal; font-size: 18px; color: $text;margin: 20px auto;
+    .phy {font-family: $font; font-weight: normal; font-size: 18px; color: $text;margin: 10px auto;
         &:hover {color: $primary;}
     }
     .phone {font-size: 41px;}
@@ -329,8 +330,8 @@ figcaption{text-align:center; background: #000; text-transform: uppercase; paddi
 
 
 /* ------------- Copy -------------- */
-.copy {margin-top:20px;padding:30px 10px 50px; background-color:#fff;margin:auto;text-transform:uppercase; font:400 12px/1.4 $font; color:#1a1a1a;; 
-   a, p {font:400 12px/1.4 $font; color:#fff; letter-spacing: 0.6px;}
+.copy {margin-top:20px;padding:30px 10px 50px; background-color:#fff;margin:auto; font:400 16px/1.4 $font; color:#1a1a1a;; 
+   a, p {font:400 16px/1.4 $font; color:#fff; letter-spacing: 0.6px;}
    a {color: $primary;}
     p {margin: 20px auto; max-width: 1090px;}
     a:hover{color:$secondary;text-decoration:underline}
@@ -374,7 +375,7 @@ hr{border-bottom:1px solid rgba(151,151,151,0.74);box-shadow:5px 1px 1px rgba(14
 }
 @media (max-width: 1000px) {
     .smile .top #banner-flex {margin-top: 30px;}
-    .smile .top #banner-flex article {flex: auto;}
+    .smile .top #banner-flex article, .smile .top #banner-flex figure {flex: auto;}
     .smile .top #banner-flex article p {text-align:center;}
     #nav {justify-content: space-around;}
     #nav .logo{margin:0}
